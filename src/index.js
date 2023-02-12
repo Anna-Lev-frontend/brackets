@@ -1,4 +1,5 @@
 module.exports = function check(str, bracketsConfig) {
+  
   let result = true;
   for (let i = 0; i < str; i++) {
     bracketsConfig.forEach(element => {
@@ -9,5 +10,5 @@ module.exports = function check(str, bracketsConfig) {
       }
     });
   }
-  return result
+  return result;
 }
